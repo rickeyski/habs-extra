@@ -1,0 +1,18 @@
+--- PKGBUILD.orig	2012-06-27 02:00:46.950484939 +0200
++++ PKGBUILD	2012-06-27 02:03:06.098626720 +0200
+@@ -10,12 +10,13 @@
+ url="http://projects.haskell.org/gtk2hs/"
+ license=("LGPL-2.1")
+ arch=('i686' 'x86_64')
+-makedepends=()
++makedepends=("gtk2hs-buildtools")
+ depends=("ghc=7.4.2-1"
+          "haskell-cairo=0.12.3.1-4"
+          "haskell-glib=0.12.3.1-2"
+          "haskell-gtk=0.12.3.1-1"
+-         "haskell-pango=0.12.3-6")
++         "haskell-pango=0.12.3-6"
++	 "libwebkit")
+ options=('strip')
+ source=("http://hackage.haskell.org/packages/archive/${_hkgname}/${pkgver}/${_hkgname}-${pkgver}.tar.gz")
+ install="${pkgname}.install"

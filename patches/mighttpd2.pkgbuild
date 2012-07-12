@@ -1,0 +1,9 @@
+--- haskell-testing-repo.orig/mighttpd2/PKGBUILD	2011-12-17 23:19:47.029459688 +0100
++++ haskell-testing-repo/mighttpd2/PKGBUILD	2011-12-17 23:22:28.558331308 +0100
+@@ -41,4 +41,6 @@
+ package() {
+     cd ${srcdir}/${_hkgname}-${pkgver}
+     runhaskell Setup copy --destdir=${pkgdir}
++    # Executable mkindex conflict with texlive
++    mv $pkgdir/usr/bin/mkindex $pkgdir/usr/bin/mighty-mkindex
+ }

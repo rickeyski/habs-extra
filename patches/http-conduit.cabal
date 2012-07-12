@@ -1,0 +1,11 @@
+--- http-conduit.cabal.orig	2012-06-26 18:34:29.838488021 +0200
++++ http-conduit.cabal	2012-06-26 18:35:13.886676857 +0200
+@@ -40,7 +40,7 @@
+                  , case-insensitive      >= 0.2
+                  , base64-bytestring     >= 0.1     && < 0.2
+                  , asn1-data             >= 0.5.1   && < 0.7
+-                 , data-default          >= 0.3     && < 0.5
++                 , data-default          >= 0.3     && < 0.5.1
+                  , text
+                  , transformers-base     >= 0.4     && < 0.5
+                  , lifted-base           >= 0.1     && < 0.2

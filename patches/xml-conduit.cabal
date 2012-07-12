@@ -1,0 +1,11 @@
+--- xml-conduit.cabal.orig	2012-06-27 00:21:42.688403869 +0200
++++ xml-conduit.cabal	2012-06-27 00:21:58.182272547 +0200
+@@ -40,7 +40,7 @@
+                    , blaze-builder             >= 0.2      && < 0.4
+                    , transformers              >= 0.2      && < 0.4
+                    , failure                   >= 0.1      && < 0.3
+-                   , data-default              >= 0.2      && < 0.5
++                   , data-default              >= 0.2      && < 0.5.1
+                    , system-filepath           >= 0.4      && < 0.5
+                    , monad-control             >= 0.3      && < 0.4
+     exposed-modules: Text.XML.Stream.Parse

@@ -1,0 +1,11 @@
+--- yesod-form.cabal.orig	2012-06-27 00:26:53.449142628 +0200
++++ yesod-form.cabal	2012-06-27 00:27:06.209583650 +0200
+@@ -23,7 +23,7 @@
+                    , persistent            >= 0.9      && < 0.10
+                    , template-haskell
+                    , transformers          >= 0.2.2    && < 0.4
+-                   , data-default          >= 0.3      && < 0.5
++                   , data-default          >= 0.3      && < 0.5.1
+                    , xss-sanitize          >= 0.3.0.1  && < 0.4
+                    , blaze-builder         >= 0.2.1.4  && < 0.4
+                    , network               >= 2.2      && < 2.4

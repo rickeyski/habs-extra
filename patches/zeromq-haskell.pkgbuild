@@ -1,0 +1,11 @@
+--- PKGBUILD.orig	2012-06-27 01:53:57.549670723 +0200
++++ PKGBUILD	2012-06-27 01:54:14.860268775 +0200
+@@ -11,7 +11,7 @@
+ license=("MIT")
+ arch=('i686' 'x86_64')
+ makedepends=()
+-depends=("ghc=7.4.2-1" "zmq")
++depends=("ghc=7.4.2-1" "zeromq")
+ options=('strip')
+ source=("http://hackage.haskell.org/packages/archive/${_hkgname}/${pkgver}/${_hkgname}-${pkgver}.tar.gz")
+ install="${pkgname}.install"

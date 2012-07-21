@@ -109,7 +109,7 @@ Server = http://xsounds.org/~haskell/\$arch
 
 
 [haskell-extra]
-Server = http://archhaskell-mynerdside.com/\$repo/\$arch
+Server = http://archhaskell.mynerdside.com/\$repo/\$arch
 
 [core]
 Include = /etc/pacman.d/mirrorlist

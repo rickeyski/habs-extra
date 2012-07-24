@@ -1,3 +1,4 @@
+["blaze-from-html",{"RepoPkg":[{"Version":"0.3.2.1"},[{"Dependency":"base >=4 && <5"},{"Dependency":"containers >=0.3"},{"Dependency":"directory >=1.0"},{"Dependency":"filepath >=1.1"},{"Dependency":"tagsoup >=0.10"}],"1"]}]
 ["HandsomeSoup",{"RepoPkg":[{"Version":"0.3.1"},[{"Dependency":"HTTP -any"},{"Dependency":"MaybeT -any"},{"Dependency":"base <5"},{"Dependency":"containers -any"},{"Dependency":"hxt -any"},{"Dependency":"mtl -any"},{"Dependency":"network -any"},{"Dependency":"parsec -any"},{"Dependency":"transformers -any"}],"1"]}]
 ["hxt",{"DistroPkg":[{"Version":"9.2.2"},"8"]}]
 ["hxt-regex-xmlschema",{"DistroPkg":[{"Version":"9.0.4"},"7"]}]

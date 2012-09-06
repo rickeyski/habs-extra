@@ -1,11 +1,11 @@
---- wai-extra.cabal.orig	2012-07-22 03:44:47.320797227 +0200
-+++ wai-extra.cabal	2012-07-22 03:45:05.304747912 +0200
+--- wai-extra.cabal.orig	2012-09-06 18:07:54.358260108 +0200
++++ wai-extra.cabal	2012-09-06 18:08:09.335443361 +0200
 @@ -32,7 +32,7 @@
                     , http-types                >= 0.6      && < 0.7
                     , text                      >= 0.7      && < 0.12
                     , case-insensitive          >= 0.2
 -                   , data-default              >= 0.3      && < 0.5
 +                   , data-default              >= 0.3      && < 0.5.1
-                    , fast-logger               >= 0.0.2
+                    , fast-logger               >= 0.0.2    && < 0.1
                     , conduit                   >= 0.4      && < 0.5
                     , zlib-conduit              >= 0.4      && < 0.5
